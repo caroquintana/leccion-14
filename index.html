@@ -5,16 +5,39 @@
 	<title>Validación de formulario en HTML5</title>
 </head>
 <body>
+	
+	<h2>Formulario de Datos</h2>
 	<form action ="">
-		<input type="text" name="">
-		<input type="email" name="">
 		<p>
-			<label for="pw">Crea tu contraseña</label><br>
-			<input type="password" name="pw" pattern=".{6,}" title="6 o más caracteres" required="">
+			<label for="nm">ingresa tu nombre</label><br>
+			<input title="Se necesita un nombre" type="text" name="nombre" required/>
 		</p>
-		<select name="" id="">
-			<option value=""></option>
+		<p>
+			<label for="ap">ingresa tu apellido</label><br>
+			<input title="Se necesita un apellido" type="text" name="apellido" required/>
+		</p>
+		<p>
+			<label for="nm">ingresa tu numero de teléfono</label><br>
+		</p>
+		
+		<select name="opcion">Escoge la marca de tu automóvil</id="select">
+			<option value="escoge tu opcion"></option>
 		</select>
+
+
+		<p>
+			<label for="nm">ingresa tu email</label><br>
+			<input type="email" name="email">
+		</p>
+		<p>
+			<label for="pw">crea tu contraseña</label><br>
+			<input type="password" name="pw" pattern=".{6,}" title="6 o más caracteres" required>
+		</p>
+		<p>
+			<input type="submit" name="" value="enviar">
+
+		</p>
+	
 	</form>
 </body>
 </html>
